@@ -17,7 +17,7 @@ app.use(parser.json());
 
 app.get('/ping', cors(), (req, res) => {
     res.send(JSON.stringify({
-        result: true
+        result: false
     }));
 });
 
