@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: First
-      uses: actions/checkout@v2
+      uses: SuneetBansal/test-repo@master
     - name : Second
       run: env | sort
   job2:
