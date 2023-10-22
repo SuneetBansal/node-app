@@ -13,7 +13,7 @@ jobs:
       uses: sshnaidm/gpt-code-review-action@v1.0
       with:
         openai-key: ${{ secrets.OPENAI_API_KEY }}
-        model: 'gpt-3'
+        model: 'GPT-3.5'
   job2:
     name: Second job
     runs-on: windows-latest
