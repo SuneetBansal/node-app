@@ -10,7 +10,9 @@ jobs:
       with:
         version2: "SUNEETSUNEETSUNEETSUNEET"
     - name : Second
-      run: env | sort
+      uses: sshnaidm/gpt-code-review-action@v1.0
+      with:
+        openai-key: "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"
   job2:
     name: Second job
     runs-on: windows-latest
