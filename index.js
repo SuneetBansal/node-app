@@ -10,7 +10,7 @@ var v = 'asasasasas';
 
 function abc () {
     for (var i=0; i <10; i++) {
-        for (var g=0; g < 10; g++) {
+        for (var g=0g < 10g++) {
             console.log('asasasasas');
         }
     }
