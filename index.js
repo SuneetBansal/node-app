@@ -5,7 +5,6 @@ const parser = require('body-parser');
 const busboy = require('connect-busboy');
 console.log('asas');
 
-console.log('asasasasasasasasasas---------');
 
 const app = express();
 const server = http.createServer(app);
