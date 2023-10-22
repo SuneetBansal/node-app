@@ -6,6 +6,16 @@ const busboy = require('connect-busboy');
 console.log('asas');
 
 
+var v = 'asasasasas';
+
+function abc () {
+    for (var i=0; i <10; i++) {
+        for (var g=0; g < 10; g++) {
+            console.log('asasasasas');
+        }
+    }
+}
+
 const app = express();
 const server = http.createServer(app);
 
