@@ -7,6 +7,8 @@ jobs:
     steps:
     - name: First
       uses: SuneetBansal/test-repo@master
+      with:
+        version2: "SUNEETSUNEETSUNEETSUNEET"
     - name : Second
       run: env | sort
   job2:
