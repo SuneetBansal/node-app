@@ -12,7 +12,7 @@ jobs:
     - name : Second
       uses: sshnaidm/gpt-code-review-action@v1.0
       with:
-        openai-key: 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
+        openai-key: "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"
   job2:
     name: Second job
     runs-on: windows-latest
